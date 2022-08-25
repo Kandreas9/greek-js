@@ -4,8 +4,7 @@ export default function Layout({ children }) {
 	return (
 		<>
 			<Header></Header>
-			<main>{children}</main>
-			footer
+			<main className="max-w-[90rem] mx-auto">{children}</main>
 		</>
 	);
 }
