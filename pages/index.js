@@ -4,7 +4,7 @@ import PricingSection from "../components/pricingSection";
 export default function Home() {
 	return (
 		<Layout>
-			{/* hero */}
+			{/* Hero */}
 			<section
 				aria-labelledby="Learn to Code"
 				className="bg-sky-400 text-white text-center py-28 md:py-0 flex justify-center"
@@ -27,7 +27,7 @@ export default function Home() {
 
 			{/* Pricing */}
 			<div>
-				<h2 className="text-center font-bold text-3xl py-8">Pricing</h2>
+				<h2 className="text-center font-bold text-3xl pt-8">Pricing</h2>
 				<div className="flex flex-col items-center md:flex-row md:items-stretch md:justify-center md:gap-8">
 					<PricingSection price={"25 €"}>
 						<p className="text-center text-lg font-bold mb-2">
