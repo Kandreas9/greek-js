@@ -15,17 +15,6 @@ export default function Home() {
 					name="keywords"
 					content="programming, programming lessons, lessons,teacher, greek js, js, greek, english, learn programming, learn"
 				/>
-
-				{/* <!-- Google tag (gtag.js) - Google Analytics --> */}
-				<script
-					async
-					src="https://www.googletagmanager.com/gtag/js?id=UA-238892379-1"
-				></script>
-				<script>
-					window.dataLayer = window.dataLayer || []; function gtag()
-					{dataLayer.push(arguments)}
-					gtag('js', new Date()); gtag('config', 'UA-238892379-1');
-				</script>
 			</Head>
 
 			{/* Hero */}
