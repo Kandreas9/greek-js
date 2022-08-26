@@ -1,9 +1,22 @@
+import Head from "next/head";
 import Layout from "../components/layout";
 import PricingSection from "../components/pricingSection";
 
 export default function Home() {
 	return (
 		<Layout>
+			<Head>
+				<title>Greek JS</title>
+				<meta
+					name="description"
+					content="Programming lessons in greek and english"
+				/>
+				<meta
+					name="keywords"
+					content="programming, programming lessons, lessons,teacher, greek js, js, greek, english, learn programming, learn"
+				/>
+			</Head>
+
 			{/* Hero */}
 			<section
 				aria-labelledby="Learn to Code"
